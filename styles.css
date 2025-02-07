@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  header {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .cta-button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Projects Section */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project-card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skill-bar {
+    background: #ddd;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  .skill-level {
+    background: #ff6f61;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Blog Section */
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .post {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
+  /* Contact Section */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 1rem;
+  }
