@@ -99,33 +99,12 @@ const HeroSection = () => {
           
           <div className="relative lg:h-[500px] h-[400px] rounded-xl overflow-hidden animate-fade-in">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-[85%] h-[85%] bg-background rounded-xl shadow-xl overflow-hidden flex flex-col">
-                <div className="bg-muted px-4 py-2 flex gap-2">
-                  <div className="w-3 h-3 rounded-full bg-destructive"></div>
-                  <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                </div>
-                <div className="p-4 flex-1 flex flex-col justify-center">
-                  <div className="space-y-3">
-                    <div className="h-6 bg-muted/50 rounded w-2/3 animate-pulse"></div>
-                    <div className="h-6 bg-muted/50 rounded w-3/4 animate-pulse"></div>
-                    <div className="h-6 bg-muted/50 rounded w-1/2 animate-pulse"></div>
-                    <div className="mt-4">
-                      <div className="h-28 bg-primary/10 rounded border border-primary/20 font-mono text-xs p-2 overflow-hidden">
-                        <span className="text-primary"># Machine Learning Model</span><br/>
-                        <span className="text-green-600">import</span> <span className="text-foreground">numpy as np</span><br/>
-                        <span className="text-green-600">import</span> <span className="text-foreground">tensorflow as tf</span><br/><br/>
-                        <span className="text-primary"># Define model architecture</span><br/>
-                        <span className="text-blue-500">model</span> = <span className="text-purple-500">tf.keras.Sequential</span>([<br/>
-                        <span className="ml-4 text-foreground">tf.keras.layers.Dense(128, activation='relu'),</span><br/>
-                        <span className="ml-4 text-foreground">tf.keras.layers.Dense(10, activation='softmax')</span><br/>
-                        ])
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="absolute inset-0">
+              <img 
+                src="https://drive.google.com/uc?export=view&id=1J0ARAXowac_nZcRSPBFcefdlFr9MWcY8" 
+                alt="William Ssemujju - AI Engineer"
+                className="w-full h-full object-cover rounded-xl"
+              />
             </div>
           </div>
         </div>
