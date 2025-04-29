@@ -8,6 +8,8 @@ import ProjectsSection from '@/components/ProjectsSection';
 import SkillsSection from '@/components/SkillsSection';
 import ContactSection from '@/components/ContactSection';
 import AnimatedSection from '@/components/AnimatedSection';
+import PersonalStorySection from '@/components/PersonalStorySection';
+import DataVisualizationSection from '@/components/DataVisualizationSection';
 
 const Index = () => {
   // Initialize theme from localStorage or system preference
@@ -36,6 +38,14 @@ const Index = () => {
         
         <AnimatedSection>
           <ProjectsSection />
+        </AnimatedSection>
+        
+        <AnimatedSection>
+          <DataVisualizationSection />
+        </AnimatedSection>
+        
+        <AnimatedSection>
+          <PersonalStorySection />
         </AnimatedSection>
         
         <AnimatedSection>

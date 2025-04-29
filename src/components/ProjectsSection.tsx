@@ -9,7 +9,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
     tags: ["NLP", "TensorFlow", "Python", "BERT"],
     demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/sentiment-analysis",
+    githubUrl: "https://github.com/SsemujjuWilliam/sentiment-analysis",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
     tags: ["Time Series", "PyTorch", "IoT", "Random Forest"],
     demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/predictive-maintenance",
+    githubUrl: "https://github.com/SsemujjuWilliam/predictive-maintenance",
   },
   {
     id: 3,
@@ -27,16 +27,16 @@ const projects = [
     image: "https://images.unsplash.com/photo-1567361808960-dec9cb578182?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
     tags: ["Computer Vision", "YOLO", "OpenCV", "CUDA"],
     demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/object-detector",
+    githubUrl: "https://github.com/SsemujjuWilliam/object-detector",
   },
   {
     id: 4,
-    title: "Recommendation Engine",
-    description: "Content-based and collaborative filtering recommendation system for e-commerce products using matrix factorization.",
+    title: "AI-Powered Recommendation Engine",
+    description: "Content-based and collaborative filtering recommendation system for e-commerce products using advanced matrix factorization algorithms.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
     tags: ["Recommender Systems", "NumPy", "PySpark", "AWS"],
     demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/recommendation-engine",
+    githubUrl: "https://github.com/SsemujjuWilliam/recommendation-engine",
   },
 ];
 
@@ -61,6 +61,7 @@ const ProjectsSection = () => {
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                 <div className="absolute bottom-3 left-3 right-3 z-20">
                   <div className="flex flex-wrap gap-2">
@@ -108,7 +109,7 @@ const ProjectsSection = () => {
         
         <div className="text-center mt-12">
           <Button asChild variant="outline" size="lg">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SsemujjuWilliam" target="_blank" rel="noopener noreferrer">
               View More Projects
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2">
                 <path d="M5 12h14"></path>
