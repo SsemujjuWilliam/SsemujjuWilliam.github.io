@@ -2,35 +2,35 @@
 const skills = [
   {
     category: "Programming Languages",
-    items: ["Python", "R", "SQL", "JavaScript", "Java", "C++"]
+    items: ["Python", "R", "SQL", "Java"]
   },
   {
     category: "Machine Learning",
-    items: ["TensorFlow", "PyTorch", "Scikit-Learn", "XGBoost", "LightGBM", "Keras"]
+    items: ["TensorFlow", "PyTorch", "scikit-learn", "Deep Learning"]
   },
   {
     category: "Data Processing",
-    items: ["Pandas", "NumPy", "Spark", "Dask", "PySpark", "SQL"]
+    items: ["Pandas", "NumPy", "NLTK", "Matplotlib", "Seaborn"]
   },
   {
-    category: "Deep Learning",
-    items: ["CNNs", "RNNs", "Transformers", "GANs", "Transfer Learning", "Fine-tuning"]
+    category: "Web Development",
+    items: ["Django", "Flask", "RESTful APIs", "HTML/CSS"]
   },
   {
     category: "Big Data",
-    items: ["Hadoop", "Spark", "Kafka", "Airflow", "Delta Lake", "Databricks"]
+    items: ["Hadoop", "Spark", "ETL Processes", "Data Pipelines"]
   },
   {
     category: "Visualization",
-    items: ["Matplotlib", "Seaborn", "Plotly", "Tableau", "PowerBI", "D3.js"]
+    items: ["Matplotlib", "Seaborn", "Plotly", "Tableau", "PowerBI"]
   },
   {
     category: "Cloud Platforms",
-    items: ["AWS", "GCP", "Azure", "Kubernetes", "Docker", "MLflow"]
+    items: ["AWS", "GCP", "Azure", "Docker", "Kubernetes"]
   },
   {
-    category: "Natural Language Processing",
-    items: ["NLTK", "spaCy", "Gensim", "BERT", "GPT", "Word2Vec"]
+    category: "Currently Learning",
+    items: ["Advanced Cloud Computing", "Blockchain", "Smart Contracts"]
   }
 ];
 
@@ -79,8 +79,8 @@ const SkillsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold">AWS Certified Machine Learning – Specialty</h4>
-                  <p className="text-sm text-muted-foreground">Amazon Web Services</p>
+                  <h4 className="font-semibold">B.S. in Business Statistics</h4>
+                  <p className="text-sm text-muted-foreground">Makerere University Business School</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -91,8 +91,8 @@ const SkillsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold">TensorFlow Developer Certificate</h4>
-                  <p className="text-sm text-muted-foreground">Google</p>
+                  <h4 className="font-semibold">Machine Learning Specialization</h4>
+                  <p className="text-sm text-muted-foreground">Online Certification</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -103,8 +103,8 @@ const SkillsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold">Professional Data Engineer</h4>
-                  <p className="text-sm text-muted-foreground">Google Cloud</p>
+                  <h4 className="font-semibold">Cloud Computing Fundamentals</h4>
+                  <p className="text-sm text-muted-foreground">Online Certification</p>
                 </div>
               </li>
             </ul>

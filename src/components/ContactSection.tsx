@@ -58,8 +58,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">Email</h3>
-                  <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    hello@example.com
+                  <a href="mailto:SsemujjuWilliam@outlook.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    SsemujjuWilliam@outlook.com
                   </a>
                 </div>
               </div>
@@ -69,13 +69,16 @@ const ContactSection = () => {
               <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-3 rounded-lg text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"></path>
+                    <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                    <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                    <path d="M9 15h6"></path>
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg">Phone</h3>
-                  <a href="tel:+12345678901" className="text-muted-foreground hover:text-primary transition-colors">
-                    +1 (234) 567-8901
+                  <h3 className="font-bold text-lg">WhatsApp</h3>
+                  <a href="https://wa.me/message/C6YVX7OIAJLVN1" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                    Message me on WhatsApp
                   </a>
                 </div>
               </div>
@@ -92,7 +95,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="font-bold text-lg">Location</h3>
                   <p className="text-muted-foreground">
-                    San Francisco, California
+                    Uganda 🇺🇬
                   </p>
                 </div>
               </div>

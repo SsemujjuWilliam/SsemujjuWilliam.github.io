@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold font-space bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-2">
-                DS Portfolio
+                William Ssemujju
               </h3>
               <p className="text-sm text-muted-foreground">
                 Transforming data into actionable insights and intelligent applications.
@@ -47,7 +47,7 @@ const Footer = () => {
             
             <div className="flex items-center gap-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/SsemujjuWilliam" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -59,7 +59,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/william-ssemujju/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -72,7 +72,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://twitter.com/SsemujjuWilliam" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -82,16 +82,30 @@ const Footer = () => {
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                 </svg>
               </a>
+              <a 
+                href="https://wa.me/message/C6YVX7OIAJLVN1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="WhatsApp"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"></path>
+                  <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                  <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                  <path d="M9 15h6"></path>
+                </svg>
+              </a>
               <ThemeToggle />
             </div>
           </div>
           
           <div className="mt-8 pt-6 border-t border-border text-center md:text-left text-sm text-muted-foreground">
             <div className="flex flex-col md:flex-row justify-between items-center gap-3">
-              <p>&copy; {currentYear} DS Portfolio. All rights reserved.</p>
+              <p>&copy; {currentYear} William Ssemujju. All rights reserved.</p>
               <div className="flex gap-4">
-                <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-                <a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a>
+                <a href="#" className="hover:text-foreground transition-colors">Buy Me a Kawa ☕</a>
+                <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
               </div>
             </div>
           </div>

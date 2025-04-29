@@ -11,11 +11,11 @@ const HeroSection = () => {
               Data Science & AI Engineer
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Data-driven solutions <br />
-              <span className="text-primary">for complex problems</span>
+              William Ssemujju <br />
+              <span className="text-primary">AI Solutions from Uganda 🇺🇬</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg">
-              I build machine learning models and data pipelines that transform raw data into actionable insights and intelligent applications.
+              Passionate Artificial Intelligence Engineer crafting impactful and innovative solutions, infused with a touch of Ugandan ingenuity. Specializing in robust and scalable machine learning solutions.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/william-ssemujju/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 </svg>
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://twitter.com/SsemujjuWilliam" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -65,7 +65,7 @@ const HeroSection = () => {
                 </svg>
               </a>
               <a 
-                href="https://tiktok.com" 
+                href="https://vm.tiktok.com/ZMkp17uDs/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -78,6 +78,20 @@ const HeroSection = () => {
                   <path d="M20 12V8h-4"></path>
                   <path d="M16 8a4 4 0 0 0-4-4"></path>
                   <path d="M16 12a4 4 0 0 1-4 4"></path>
+                </svg>
+              </a>
+              <a 
+                href="https://wa.me/message/C6YVX7OIAJLVN1"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="WhatsApp"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"></path>
+                  <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                  <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z"></path>
+                  <path d="M9 15h6"></path>
                 </svg>
               </a>
             </div>
